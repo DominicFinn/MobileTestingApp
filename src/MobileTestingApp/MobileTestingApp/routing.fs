@@ -12,9 +12,7 @@ open Suave.Successful
 module routing =    
     open Suave.RequestErrors
     open Suave.Filters
-    
 
-    // 'a -> WebPart
     let JSON v =     
         let jsonSerializerSettings = new JsonSerializerSettings()
         jsonSerializerSettings.ContractResolver <- new CamelCasePropertyNamesContractResolver()

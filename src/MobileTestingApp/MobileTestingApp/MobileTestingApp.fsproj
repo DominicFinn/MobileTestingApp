@@ -55,7 +55,7 @@
   <Import Project="$(FSharpTargetsPath)" />
   <ItemGroup>
     <Compile Include="AssemblyInfo.fs" />
-    <Compile Include="RestFul.fs" />
+    <Compile Include="routing.fs" />
     <Compile Include="Database.fs" />
     <Compile Include="Site.fs" />
     <None Include="App.config" />
